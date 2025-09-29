@@ -30,19 +30,22 @@ html{
 }
 
 body{
+    min-height: 100vh;
     background-color: var(--Teal-100);
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
 }
 
 main{
     background-color: var(--Teal-100);
     width: 80vw;
     height: 100vh;
+    border-radius: 1rem;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -57,7 +60,7 @@ section{
 
 .join{
     background-color: white;
-    height: 26rem;
+    height: 27rem;
     border-radius: 1rem 1rem 0rem 0rem;
 }
 
@@ -80,7 +83,7 @@ section{
 .subscription{
     background-color: var(--Teal-500);
     color: white;
-    height: 22rem;
+    height: 25rem;
     
 }
 
