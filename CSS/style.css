@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --Teal-500: hsl(179, 62%, 43%);
+    --whyUs: #4ABEBD;
+    --Green-400: hsl(71, 73%, 54%);
+    --Teal-100: hsl(204, 43%, 93%);
+    --Gray-500: hsl(218, 22%, 67%);
+
+    --font-destaque: 'Karla', sans-serif;
+
+    --Weights400: 400;
+    --Weights700: 700;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: var(--font-destaque);
+    font-weight: var(--Weights400);
+}
+
+body{
+    background-color: var(--Teal-100);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main{
+    background-color: var(--Teal-100);
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.join{
+    background-color: white;
+    height: 26rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.join h1{
+    color: var(--Teal-500);
+    font-size: 2rem;
+    font-weight: var(--Weights700);
+}
+
+.join h2{
+    color: var(--Green-400);
+}
+
+.join p{
+    color: var(--Gray-500);
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+
+.subscription{
+    background-color: var(--Teal-500);
+    color: white;
+    height: 22rem;
+    
+}
+
+.subscription h1{
+    font-size: 2rem;
+    font-weight: var(--Weights700);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price p{
+    color: #83EBEC;
+}
+
+.price strong{
+    color: white;
+    font-size: 3rem;
+}
+
+.subscription > p{
+    color: var(--Teal-100);
+}
+
+.submit{
+    background-color: var(--Green-400);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    height: 5rem;
+}
+
+.whyUs{
+    background-color: var(--whyUs);
+    height: 22rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 300;
+}
