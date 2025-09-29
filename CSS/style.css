@@ -24,6 +24,7 @@ html{
     padding: 0rem;
     box-sizing: border-box;
     font-size: 1.6rem;
+    line-height: 2.5rem;
     font-family: var(--font-destaque);
     font-weight: var(--Weights400);
 }
@@ -72,7 +73,7 @@ section{
 
 .join p{
     color: var(--Gray-500);
-    line-height: 2.5rem;
+    
     font-size: 1.4rem;
 }
 
@@ -117,10 +118,20 @@ section{
 
 .whyUs{
     background-color: var(--whyUs);
-    height: 22rem;
+    color: white;
+    height: 25rem;
     border-radius: 0rem 0rem 1rem 1rem;
 }
 
+.whyUs h1{
+    font-size: 2rem;
+    font-weight: var(--Weights700);
+}
+
+.whyUs p{
+    color: var(--Teal-100);
+    width: 80%;
+}
 
 footer{
     text-align: center;
